@@ -13,7 +13,7 @@ pub fn sigmoid(input_array: Array<f32>) -> Array<f32> {
     output_array
 }
 
-pub fn dsigmoid(input_array: Array<f32>) -> Array<f32> {
+//pub fn dsigmoid(input_array: Array<f32>) -> Array<f32> {
 
     
-}
+//}
