@@ -77,6 +77,7 @@ impl DenseLayers {
     //Multilayer configuration structure?
     //All outputs stored in an array of Array<f32>?
     //Diff types of layers indeed represented via structures like DenseLayers and ConvLayers? or as structs or whatever of DenseLayer ConvLayer
+    //Use generics to optimize the code
     fn back_prop(layer_output: Array<f32>, layer_target: Array<f32>, layer_weights: Array<f32>, layer_biases: Array<f32>) {
 
     }
